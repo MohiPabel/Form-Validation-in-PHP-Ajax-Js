@@ -1,0 +1,279 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #262626;
+    background-color: #f3f5ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*----- Nav Start -----*/
+
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px -4px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+nav ul .icon {
+    color: #2cd090;
+    transition: 0.3s;
+}
+
+nav ul .icon:hover {
+    color: #262626;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #262626;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #2cd090;
+}
+
+
+/*----- Nav End -----*/
+
+
+/*----- Header and main content start -----*/
+
+header h1 {
+    text-align: center;
+}
+
+main {
+    padding: 15px;
+    margin: 5% 15%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main ul {
+    list-style: none;
+    padding: 0px;
+    margin: 5% 15%;
+}
+
+main ul a {
+    text-decoration: none;
+    color: #262626;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main ul a li:hover {
+    color: #2cd090;
+    box-shadow: 4px 4px 8px -2px rgba(44, 208, 144, 0.5), -4px -4px 8px -2px rgba(44, 208, 144, 0.5);
+}
+
+main ul a li {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 8px -4px rgba(0, 0, 0, 0.3);
+    vertical-align: middle;
+}
+
+main ul a li i {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+
+/*----- Header and main content end -----*/
+
+
+/*----- About section start -----*/
+
+.about {
+    padding: 10px 20px 10px 20px;
+}
+
+
+/*----- About section end -----*/
+
+
+/*----- Footer start -----*/
+
+footer {
+    background-color: #ffffff;
+    box-shadow: -0 -2px 8px -4px rgba(0, 0, 0, 0.3);
+    padding: 5px 20px 5px 20px;
+}
+
+footer p {
+    text-align: center;
+    font-style: italic;
+}
+
+
+/*----- Footer end -----*/
+
+
+/*----- Form start -----*/
+
+main h1 {
+    margin: 10px 0;
+}
+
+label {
+    float: left;
+}
+
+input,
+select {
+    height: 40px;
+    font-size: 16px;
+    color: #262626;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0 5px;
+    margin-bottom: 15px;
+}
+
+select,
+input:focus {
+    outline-width: 0;
+}
+
+
+/*----- Form end -----*/
+
+
+/*----- Button start -----*/
+
+input[type="submit"] {
+    margin: 0;
+    padding: 10px 25px;
+    background-color: #2cd090;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+}
+
+input[type="submit"]:hover {
+    background-color: #22a070;
+}
+
+
+/*----- Button end -----*/
+
+
+/*----- Error and success Message start -----*/
+
+.error-text {
+    margin: 0;
+    padding: 0;
+    color: red;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.not-success {
+    visibility: hidden;
+}
+
+.success {
+    visibility: visible;
+    background-color: #d4edda;
+    padding: 1px;
+    border: 1px solid #155724;
+    border-radius: 5px;
+    margin: 0 20%;
+    color: #155724;
+}
+
+.success .refresh {
+    color: #155724;
+}
+
+
+/*----- Error and success Message end -----*/
+
+
+/*----- PHP Form Start -----*/
+
+.phpform {
+    background-color: #ecd3fd;
+}
+
+
+/*----- PHP Form End -----*/
+
+
+/*----- Ajax Form Start -----*/
+
+.ajaxform {
+    background-color: #d4e5f2;
+}
+
+.form-success {
+    visibility: visible;
+    background-color: #d4edda;
+    padding: 5px;
+    border: 1px solid #155724;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: #155724;
+    display: block;
+    width: 100%;
+}
+
+.form-error {
+    visibility: visible;
+    background-color: #f8d7da;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: #901c37;
+    display: block;
+    width: 100%;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+
+/*----- Ajax Form End -----*/
+
+
+/*----- JavaScript Form Start -----*/
+
+.jsform {
+    background-color: #f8eea0;
+}
+
+
+/*----- JavaScript Form End -----*/
